@@ -82,8 +82,23 @@ main{
     border-radius: 10px;
     position: absolute;
     top: -30%;
-    left: 62%;
+    left: 68%;
     text-align: center;
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 1200px){
+    .gb-left  {
+        background-color: white;
+        /* margin: 1rem 0; */
+        width: 200px;
+        padding: 1rem;
+        border-radius: 10px;
+        position: absolute;
+        top: -30%;
+        left:45%;
+        text-align: center;
+    }
 }
 
 
